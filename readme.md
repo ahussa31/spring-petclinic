@@ -4,13 +4,17 @@
 <a href="https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application">See the presentation here</a>
 
 ## Running petclinic locally
+
+First, make sure you fork the repo into your own github account. When cloning, make sure you are cloning the repo that is
+in YOUR github account. 
+
 ```
 	git clone https://github.com/spring-projects/spring-petclinic.git
 	cd spring-petclinic
 	./mvnw spring-boot:run
 ```
 
-You can then access petclinic here: http://localhost:8080/
+You can then access petclinic at: http://localhost:8080/
 
 <img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
 
@@ -104,4 +108,3 @@ For pull requests, editor preferences are available in the [editor config](.edit
 # Experimentation
 
 This is a trivial change to demonstrate the functionality of Github's pull request capabilities.
-
